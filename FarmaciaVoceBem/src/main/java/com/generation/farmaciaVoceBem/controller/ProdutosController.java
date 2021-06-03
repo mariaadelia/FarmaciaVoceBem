@@ -20,7 +20,7 @@ import com.generation.farmaciaVoceBem.repository.ProdutosRepository;
 
 @RestController
 @RequestMapping("/produtos")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdutosController {
 	
 	@Autowired
